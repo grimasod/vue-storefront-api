@@ -42,9 +42,11 @@
        "name": {"type": "text"},
        "configurable_children": {
            "properties": {
+               "url_key": {"type": "keyword"},
+               "sku": {"type": "keyword"},
                "has_options": {"type": "boolean"},
                "price": {"type": "float"},
-               "sku": {"type": "keyword"}
+               "special_price": {"type": "float"}
             }
         },
        "configurable_options": {
